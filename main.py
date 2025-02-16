@@ -31,6 +31,7 @@ after_config.place(x=280,y=280)
 
 
 first_note_entry=Entry()  # To create an input
+first_note_entry.focus()  # To create a blinking cursor
 first_note_entry.place(x=270,y=140)  # To determine input's location
 
 second_note_entry=Entry()
